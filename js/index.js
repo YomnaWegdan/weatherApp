@@ -40,14 +40,14 @@ async function getData(city) {
             </div>
             <div class="details mt-5 d-flex justify-content-between align-items-center">
               <div class="col-lg-6 d-flex align-items-center justify-content-center bg-item pt-3 ">
-                <img src="./images/icon-umberella@2x.png" alt="humidity-img" class="w-25" />
+                <img src="/images/icon-umberella@2x.png" alt="humidity-img" class="w-25" />
                 <div class="ms-2">
                   <p class="humidity">${element.day.avghumidity} %</p>
                   <p>Humidity</p>
                 </div>
               </div>
               <div class="col-lg-6 d-flex align-items-center justify-content-center bg-item ms-2 pt-3">
-                <img src="./images/icon-wind@2x.png" alt="wind-img" class="w-25" />
+                <img src="/images/icon-wind@2x.png" alt="wind-img" class="w-25" />
                 <div class=" ms-2">
                   <p class="wind">${element.day.maxwind_kph} Km/h</p> 
                   <p>Wind Speed</p> 
